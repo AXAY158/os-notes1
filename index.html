@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operating System - Short Questions</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f0f4f8;
+            color: #222;
+            line-height: 1.7;
+            padding: 25px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #123c69, #2878b5);
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 16px;
+        }
+
+        .unit {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            border-left: 6px solid #2878b5;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .unit h2 {
+            color: #123c69;
+            font-size: 23px;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 18px;
+            font-size: 14px;
+        }
+
+        .qa {
+            background: #f7faff;
+            border: 1px solid #dce8f5;
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin-bottom: 13px;
+        }
+
+        .question {
+            color: #174f85;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .answer {
+            color: #333;
+        }
+
+        .answer strong {
+            color: #198754;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .unit {
+                padding: 16px;
+            }
+
+            .unit h2 {
+                font-size: 20px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .header, .unit {
+                box-shadow: none;
+            }
+
+            .unit {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <header class="header">
+        <h1>Operating System</h1>
+        <p>Unit-I to Unit-V | One-Mark & Short Questions</p>
+    </header>
+
+    <!-- UNIT I -->
+    <section class="unit">
+        <h2>Unit-I: Overview of Operating Systems</h2>
+        <p class="subtitle">Short Question Lists</p>
+
+        <div class="qa">
+            <p class="question">Q1. What is an operating system?</p>
+            <p class="answer"><strong>Ans:</strong> An operating system is system software that manages computer hardware, software resources, and provides services to programs.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q2. Give one difference between a process and a thread.</p>
+            <p class="answer"><strong>Ans:</strong> Processes have separate memory space, while threads share memory within the same process.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q3. What is a Process Control Block (PCB)?</p>
+            <p class="answer"><strong>Ans:</strong> A data structure containing process information like process ID, state, and CPU registers.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q4. What is a system call?</p>
+            <p class="answer"><strong>Ans:</strong> A system call is a programmatic way to request services from the operating system.</p>
+        </div>
+    </section>
+
+    <!-- UNIT II -->
+    <section class="unit">
+        <h2>Unit-II: Process Management</h2>
+        <p class="subtitle">Short Question Lists</p>
+
+        <div class="qa">
+            <p class="question">Q1. What is process scheduling?</p>
+            <p class="answer"><strong>Ans:</strong> Process scheduling is the method by which the operating system decides the order in which processes access the CPU.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q2. What is a semaphore?</p>
+            <p class="answer"><strong>Ans:</strong> A semaphore is a synchronization tool used to control access to shared resources.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q3. What is a binary semaphore?</p>
+            <p class="answer"><strong>Ans:</strong> A semaphore that takes only 0 or 1 as values.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q4. What is the main purpose of semaphores?</p>
+            <p class="answer"><strong>Ans:</strong> To avoid race conditions and ensure process synchronization.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q5. What is a deadlock?</p>
+            <p class="answer"><strong>Ans:</strong> Deadlock is a situation where processes wait indefinitely for resources held by each other.</p>
+        </div>
+    </section>
+
+    <!-- UNIT III -->
+    <section class="unit">
+        <h2>Unit-III: Memory Management</h2>
+        <p class="subtitle">One-Mark Questions</p>
+
+        <div class="qa">
+            <p class="question">Q1. What is memory management?</p>
+            <p class="answer"><strong>Ans:</strong> It is the OS function that handles allocation and deallocation of memory to processes.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q2. What is cache memory?</p>
+            <p class="answer"><strong>Ans:</strong> A small, fast memory unit near the CPU that stores frequently used data.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q3. What is a logical address?</p>
+            <p class="answer"><strong>Ans:</strong> An address generated by the CPU during program execution, also called a virtual address.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q4. What is a physical address?</p>
+            <p class="answer"><strong>Ans:</strong> The actual location of data in memory hardware.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q5. What is paging?</p>
+            <p class="answer"><strong>Ans:</strong> A memory management technique that loads fixed-size pages of a process into main memory.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q6. What is segmentation?</p>
+            <p class="answer"><strong>Ans:</strong> A memory management technique that divides a process into variable-sized logical segments.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q7. What does a segment table store?</p>
+            <p class="answer"><strong>Ans:</strong> Base address and length (limit) of each segment.</p>
+        </div>
+    </section>
+
+    <!-- UNIT IV -->
+    <section class="unit">
+        <h2>Unit-IV: File System and Disk Scheduling</h2>
+        <p class="subtitle">One-Mark Questions</p>
+
+        <div class="qa">
+            <p class="question">Q1. What is a file system?</p>
+            <p class="answer"><strong>Ans:</strong> A method used by the OS to organize and manage files on a storage device.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q2. What is disk scheduling?</p>
+            <p class="answer"><strong>Ans:</strong> An algorithm that manages the order of I/O requests to the disk to optimize access.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q3. What is seek time?</p>
+            <p class="answer"><strong>Ans:</strong> The time taken by the disk head to move to the desired track.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q4. What is SSTF?</p>
+            <p class="answer"><strong>Ans:</strong> Shortest Seek Time First — services the request closest to the current head position.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q5. What does C-SCAN stand for?</p>
+            <p class="answer"><strong>Ans:</strong> Circular-SCAN.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q6. What is the main difference between LOOK and C-LOOK?</p>
+            <p class="answer"><strong>Ans:</strong> LOOK reverses direction and serves requests on the way back, while C-LOOK jumps to the smallest request without serving on return.</p>
+        </div>
+    </section>
+
+    <!-- UNIT V -->
+    <section class="unit">
+        <h2>Unit-V: I/O Management</h2>
+        <p class="subtitle">One-Mark Questions with Answers</p>
+
+        <div class="qa">
+            <p class="question">Q1. What does DMA stand for?</p>
+            <p class="answer"><strong>Ans:</strong> Direct Memory Access.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q2. Which software controls a specific I/O device?</p>
+            <p class="answer"><strong>Ans:</strong> Device driver.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q3. Name one example of a software interrupt.</p>
+            <p class="answer"><strong>Ans:</strong> A system call (or divide-by-zero trap).</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q4. Which I/O technique keeps checking the device status again and again?</p>
+            <p class="answer"><strong>Ans:</strong> Polling (programmed I/O).</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q5. Which instructions are used in port-mapped I/O?</p>
+            <p class="answer"><strong>Ans:</strong> IN and OUT.</p>
+        </div>
+
+        <div class="qa">
+            <p class="question">Q6. In which multiprocessing type do all processors have equal roles?</p>
+            <p class="answer"><strong>Ans:</strong> Symmetric Multiprocessing (SMP).</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Operating System | Exam Preparation Notes</p>
+    </footer>
+
+</div>
+</body>
+</html>
